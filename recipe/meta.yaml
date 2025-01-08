@@ -1,5 +1,5 @@
 {% set name = "marray-python" %}
-{% set version = "0.0.5" %}
+{% set version = "0.0.6" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/m/marray/marray-{{ version }}.tar.gz
-  sha256: 09fa2325fe6fca2ce005aaa250152a95ae5e61b341d8d443600a78b95bfe06b0
+  sha256: 190b92106f90b308b0f9d4140dad18d17884aefa1584c0cc45e4262e1d2795dc
 
 build:
   noarch: python
